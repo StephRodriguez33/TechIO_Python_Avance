@@ -1,6 +1,6 @@
 title: Python Project
 plan:
-- title: Welcome
+- title: Test de connaissances en python
   statement: markdowns/welcome.md
 projects:
   python:
