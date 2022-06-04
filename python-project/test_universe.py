@@ -30,9 +30,9 @@ def fail():
 def test_count_all_stars():
     try:
         count1 = count_all_stars([2, 3])
-        assert count1 == 5, "Running count_all_stars([2, 3])... Expected 5, got {}".format(count1)
+        assert count1 == 5, "Exécution de count_all_stars([2, 3])... la réponse attendue est 5 mais ton prog. a renvoyé {}".format(count1)
         count2 = count_all_stars([9, -3])
-        assert count2 == 6, "Running count_all_stars([9, -3])... Expected 6, got {}".format(count2)
+        assert count2 == 6, "Exécution de count_all_stars([9, -3])... la réponse attendue est 6, mais ton prog. a renvoyé {}".format(count2)
         success()
 
         if sum_builtin_used:
@@ -44,14 +44,14 @@ def test_count_all_stars():
             send_msg("My personal Yoda, you are. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ")
             send_msg("My personal Yoda, you are. 🙏", "_)_/LI")
         else:
-            send_msg("Kudos 🌟", "Did you know that you could use the sum function? Try it!")
+            send_msg("Kudos 🌟", "Saviez-vous que vous pouviez utiliser la fonction somme ? Essayez-la !")
             send_msg("Kudos 🌟", "")
             send_msg("Kudos 🌟", "galaxies = [37, 3, 2]")
             send_msg("Kudos 🌟", "total_stars = sum(galaxies)  # 42")
     except AssertionError as e:
         fail()
-        send_msg("Oops! 🐞", e)
-        send_msg("Hint 💡", "Did you properly accumulate all stars into 'total_stars'? 🤔")
+        send_msg("Oups! bug! 🐞", e)
+        send_msg("Astuce 💡", "Avez-vous correctement accumulé toutes les étoiles dans 'total_stars' ?")
 
 
 if __name__ == "__main__":
