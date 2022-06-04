@@ -1,6 +1,6 @@
-title: Python Project
+title: TechIO Python Avancé - Test de connaissances en python
 plan:
-- title: Test de connaissances en python
+- title: Page1
   statement: markdowns/welcome.md
 projects:
   python:
