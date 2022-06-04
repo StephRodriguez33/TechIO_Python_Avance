@@ -36,13 +36,15 @@ def test_count_all_stars():
         success()
 
         if sum_builtin_used:
-            send_msg("My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ")
-            send_msg("My personal Yoda, you are. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ")
-            send_msg("My personal Yoda, you are. 🙏", "__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .")
-            send_msg("My personal Yoda, you are. 🙏", "'-._\\7'      .　　° ☾  ° 　¸.☆  ● .　　　")
-            send_msg("My personal Yoda, you are. 🙏", " /'.-c    　   * ●  ¸.　　°     ° 　¸.    ")
-            send_msg("My personal Yoda, you are. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ")
-            send_msg("My personal Yoda, you are. 🙏", "_)_/LI")
+            send_msg("Bravo, tu es maintenant maitre Yoda. Applaudissement. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ")
+            send_msg("Bravo, tu es maintenant maitre Yoda. Applaudissement. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ")
+            send_msg("Bravo, tu es maintenant maitre Yoda. Applaudissement. 🙏", "__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .")
+            send_msg("Bravo, tu es maintenant maitre Yoda. Applaudissement. 🙏", "'-._\\7'      .　　° ☾  ° 　¸.☆  ● .　　　")
+            send_msg("Bravo, tu es maintenant maitre Yoda. Applaudissement. 🙏", " /'.-c    　   * ●  ¸.　　°     ° 　¸.    ")
+            send_msg("Bravo, tu es maintenant maitre Yoda. Applaudissement. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ")
+            send_msg("Bravo, tu es maintenant maitre Yoda. Applaudissement. 🙏", "_)_/LI")
+            send_msg("As-tu reconnu le dessin formé au dessus","")
+
         else:
             send_msg("Kudos 🌟", "Saviez-vous que vous pouviez utiliser la fonction somme ? Essayez-la !")
             send_msg("Kudos 🌟", "")
