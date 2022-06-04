@@ -2,6 +2,8 @@ title: TechIO Python Avancé - Test de connaissances en python
 plan:
 - title: Page1
   statement: markdowns/welcome.md
+- title: Page2
+  statement: markdowns/page2.md
 projects:
   python:
     root: /python-project
